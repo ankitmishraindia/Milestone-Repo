@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --variant-color:rgb(109, 46, 109)
+}
+
+body{
+  min-height: 100vh;
+  max-height: 300vh;
+  background-color: var(--variant-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.container h2{
+  font-size:45px;
+  color: white;
+  letter-spacing: 5px;
+}

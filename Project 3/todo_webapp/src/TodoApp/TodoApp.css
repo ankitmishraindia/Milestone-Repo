@@ -1,0 +1,52 @@
+.search{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.search input{
+   font-size: larger;
+   outline: none;
+   border: none;
+}
+
+.search button{
+    padding: 8px 25px;
+    background-color: var(--variant-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+ul li{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    justify-content: center;
+    gap:20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.buttons button{
+    background-color: rgba(0, 0, 244, 0.6);
+    color:wheat;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

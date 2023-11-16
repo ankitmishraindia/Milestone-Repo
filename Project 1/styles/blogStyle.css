@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    max-width: 300vh;
+    padding: 30px;
+    letter-spacing: 3px;
+}
+header{
+    height: fit-content;
+    background-color: rgb(127, 24, 224);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+main{
+    height: 80vh;
+    margin-top: 10px;
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header img{
+    border:2px solid  white;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}
+header div h1,p{
+    color: white;
+}
+main{
+    padding: 20px;
+}
+main p{
+    color:black;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./styles/homeStyle.css">
+    <title>HomePage</title>
+    
+</head>
+<body>
+    <header>
+        <h2>PWSkills Blog</h2>
+        <h2>
+            <span id="addBlogIcon" class="material-symbols-outlined">
+                add
+                </span>
+        </h2>
+        
+    </header>
+    
+    <main id="main">
+        <div id="bodyAfter"></div>
+        <div id="addBlogContainer" class="addBlogContainer">
+            <span id="closeAddBlogBox" class="material-symbols-outlined">
+                close
+                </span>
+            <div class="addBlogBox">
+                 <div>
+                    <label for="poster">Poster:</label>
+                    <input id="poster" accept=".jpeg,.jpg,.png,.webp" type="file">
+                 </div>
+                 <input id="BlogTitle" type="text" placeholder="Enter Blog Title:">
+                 <input id="BlogDesc" type="text" placeholder="Enter Blog Description:">
+                 <textarea name="" id="BlogText" cols="20" rows="10" placeholder="Write.."></textarea>
+                 <button id="AddBlogButton">Add Blog</button>
+            </div>
+        </div>
+    </main>
+   
+    <script src="./scripts/homeScript.js"></script>
+</body>
+</html>
